@@ -30,3 +30,20 @@ div.breadcrumbs a {
   background: #10284e;
   color: #fff;
 }
+
+
+/* Light mode */
+/* @media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+} */
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    a:link,
+    a:visited{
+        color: white;
+    }
+}
