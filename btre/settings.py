@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.humanize',
 
+    'accounts.apps.AccountsConfig',
 	'listings.apps.ListingsConfig',
     'pages.apps.PagesConfig',
     'realtors.apps.RealtorsConfig',
