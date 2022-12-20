@@ -11,3 +11,6 @@ urlpatterns = [
     path('listings/', include('listings.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
+# admin.site.site_header  =  "Custom bookstore admin"  
+# admin.site.site_title  =  "BT Real Estate Admin"
+admin.site.index_title  =  "BT Real Estate Admin"
