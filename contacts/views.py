@@ -38,6 +38,7 @@ def contact(request):
 		contact.save()
 
 		# Send email
+		# Checkout using email templates.
 		send_mail(
 			'Property Listing Inquiry',
 			f'There has been an inquiry for {listing}. Sign into the admin panel for more information.',
